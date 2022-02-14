@@ -17,6 +17,16 @@ Verificacion de exploit incorporado en metasploit
 ![2](https://user-images.githubusercontent.com/67207446/153796625-d1f8adfb-32ab-4a29-9355-0bab34067978.png)
 
 
+## Instalacion
+
+git clone https://github.com/Anonimo501/AutoInstall_Eternalblue-doublepulsar.git
+
+cd AutoInstall_Eternalblue-doublepulsar
+
+chmod +x AutoInstall_Eternalblue-doublepulsar.sh
+
+./AutoInstall_Eternalblue-doublepulsar.sh
+
 ## Uso 
 
 use exploit/windows/smb/eternalblue_doublepulsar
