@@ -13,10 +13,16 @@ git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit
 cd Eternalblue-Doublepulsar-Metasploit/
 cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
 mkdir -p /root/.wine/drive_c/
+cp -r deps/ /usr/share/metasploit-framework/modules/exploits/windows/smb
 
 echo ""
 echo -e "\e[31m*****************************************************************\e[0m"
 echo -e "\e[33mVerifique el exploit - ejecute metasploit y verifique el exploit \e[0m"
 echo -e "\e[33mRuta: exploit/windows/smb/eternalblue_doublepulsar \e[0m"
 echo -e "\e[31m*****************************************************************\e[0m"
+echo ""
+echo "Haz lo siguiente"
+echo "set doublepulsarpath /usr/share/metasploit-framework/modules/exploits/windows/smb/deps"
+echo "set eternalbluepath /usr/share/metasploit-framework/modules/exploits/windows/smb/deps"
+echo "set processinject explorer.exe"
 echo ""
