@@ -9,6 +9,9 @@ apt-get upgrade -y
 apt-get install wine -y
 apt-get install winetricks -y
 dpkg --add-architecture i386 && apt-get update && apt-get install wine32 -y
+winetricks --gui
+echo -e "\e[33minstalar dll componentes\e[0m"
+echo -e "\e[33minstalar python2.6 y cmd\e[0m"
 git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit
 cd Eternalblue-Doublepulsar-Metasploit/
 cp -r deps/ /usr/share/metasploit-framework/modules/exploits/windows/smb
