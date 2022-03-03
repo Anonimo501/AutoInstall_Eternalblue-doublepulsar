@@ -42,4 +42,7 @@ echo -e "\e[31m*****************************************************************
 echo -e "\e[33mSi recibe algunos errores relacionados con la arquitectura, como 'Error al enviar una DLL de arquitectura incorrecta al destino', \e[0m"
 echo -e "\e[33mcomo se muestra a continuación, significa que está usando una carga útil incorrecta, asegúrese de que debe usar la carga útil \e[0m"
 echo -e "\e[33mde Windows/x64/meterpreter/reverse_tcp para 64- sistemas operativos bit\e[0m"
+echo ""
+echo "Configure lo siguiente para x64"
+echo "set payload windows/x64/meterpreter/reverse_tcp"
 echo -e "\e[31m*****************************************************************\e[0m"
